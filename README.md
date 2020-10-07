@@ -29,6 +29,8 @@ optional arguments:
   -h, --help            show this help message and exit
   -f {bmp,gif,jpg,png,pdf,svg}, --format {bmp,gif,jpg,png,pdf,svg}
                         Format of the output
+  -e {dot,neato,twopi,circo}, --engine {dot,neato,twopi,circo}
+                        Render engine
   -v, --view            View the graph
   -c, --cluster         Create a cluster for each subfolder
 ```
